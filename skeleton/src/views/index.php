@@ -1,7 +1,7 @@
-<?php ob_start();
-
-redirectTo("/movies")
-
+<?php 
+redirectTo("/movies");
+//path = index->router->moviesController->movies->default
+ob_start();
 ?>
 
 <h1>Acceuil</h1>
